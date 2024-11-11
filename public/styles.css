@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.input-group, .form-section, .list-section, .recognition-section {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-section h2, .list-section h2, .recognition-section h2 {
+    margin-top: 0;
+}
+
+#user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#user-form label {
+    margin-top: 10px;
+}
+
+#user-form input, #user-form button, #user-form select {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#user-form button {
+    background-color: #98e09a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#user-form button:hover {
+    background-color: #98e09a;
+}
+
+#user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#user-table th, #user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#user-table th {
+    background-color: #98e09a;
+    color: white;
+}
+
+#camera {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#start-camera {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#start-camera:hover {
+    background-color: #45a049;
+}
+
+/* Botón de Login */
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .form-section, .list-section, .recognition-section {
+        padding: 15px;
+    }
+
+    #user-form input, #user-form button, #user-form select {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    #start-camera {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
