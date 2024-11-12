@@ -21,3 +21,8 @@ Sitio web de Render donde se desplego el proyecto.
  Despues de registrarte puedes iniciar sesión con la camara sin necesidad de ingresar el Usuario y Contraseña.
 
  ![image](https://github.com/user-attachments/assets/abfadc6e-cf2d-4cd8-9222-e74e19606a4d)
+
+## API Consumida
+Una vez validado tus datos de reconocimiento facial aparecera la API de Rick & Morty en este caso de los personajes que conforman dicha serie.
+ ![image](https://github.com/user-attachments/assets/de6976a3-d814-44b7-af8b-781798f17d83)
+
